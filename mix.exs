@@ -69,7 +69,7 @@ defmodule ElixirKatas.MixProject do
       {:bandit, "~> 1.5"},
       {:nimble_csv, "~> 1.2"},
       {:mogrify, "~> 0.9.3"},
-      {:pdf_generator, "~> 0.6"},
+      # {:pdf_generator, "~> 0.6"},
       {:earmark, "~> 1.4"}
     ]
   end

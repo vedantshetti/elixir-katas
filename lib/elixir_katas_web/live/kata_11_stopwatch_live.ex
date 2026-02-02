@@ -17,6 +17,7 @@ defmodule ElixirKatasWeb.Kata11StopwatchLive do
      |> assign_new(:laps, fn -> [] end)}
   end
 
+  @spec render(any()) :: Phoenix.LiveView.Rendered.t()
   def render(assigns) do
     ~H"""
     <div class="flex flex-col items-center justify-center p-8 gap-8 min-h-[400px]">
